@@ -13,6 +13,14 @@ public class CharacterMovement : MonoBehaviour
 
     private Vector2 moveDirection;
 
+    private bool throwing = false;
+    [SerializeField]
+    private Camera cam;
+    [SerializeField] 
+    private GameObject throwPrefab;
+    [SerializeField] 
+    private float throwForce;
+
     [SerializeField]
     private Animator anim;
 
@@ -22,26 +30,64 @@ public class CharacterMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        moveDirection.x = Input.GetAxis("Horizontal");
-        moveDirection.y = Input.GetAxis("Vertical");
-
-        Vector3 movement = new Vector3(moveDirection.x, 0f, moveDirection.y);
-
-        if(Input.GetKey(KeyCode.LeftShift))
+        if(throwing)
         {
-            moveSpeed = walkSpeed * sprintMultiplier;
-            sprinting = true;
+            if (Input.GetMouseButtonDown(0))
+            {
+                Throw();
+            }
         }
         else
         {
-            moveSpeed = walkSpeed;
-            sprinting = false;
+            moveDirection.x = Input.GetAxis("Horizontal");
+            moveDirection.y = Input.GetAxis("Vertical");
+
+            Vector3 movement = new Vector3(moveDirection.x, 0f, moveDirection.y);
+
+            if (Input.GetKey(KeyCode.LeftShift))
+            {
+                moveSpeed = walkSpeed * sprintMultiplier;
+                sprinting = true;
+            }
+            else
+            {
+                moveSpeed = walkSpeed;
+                sprinting = false;
+            }
+
+            Vector3 newPosition = transform.position + movement * moveSpeed * Time.deltaTime;
+            this.transform.position = newPosition;
+
+            ChangeAnimation();
         }
+    }
 
-        Vector3 newPosition = transform.position + movement * moveSpeed * Time.deltaTime;
-        this.transform.position = newPosition;
+    public void Throw()
+    {
+        Ray ray = cam.ScreenPointToRay(Input.mousePosition);
+        RaycastHit hit;
 
-        if(moveDirection == Vector2.zero)
+        if (Physics.Raycast(ray, out hit))
+        {
+            GameObject thrownObject = Instantiate(throwPrefab, transform.position, Quaternion.identity);
+            Rigidbody rb = thrownObject.GetComponent<Rigidbody>();
+
+            if(rb != null)
+            {
+                Vector3 direction = (hit.point - transform.position).normalized;
+
+                rb.AddForce(direction * throwForce, ForceMode.Impulse);
+            }
+            else
+            {
+                Debug.Log("No rigidbody found on the thrown object");
+            }
+        }
+    }
+
+    private void ChangeAnimation()
+    {
+        if (moveDirection == Vector2.zero)
         {
             anim.SetBool("WalkingUp", false);
             anim.SetBool("WalkingDown", false);
