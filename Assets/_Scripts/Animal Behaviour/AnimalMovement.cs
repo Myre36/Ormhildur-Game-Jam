@@ -63,7 +63,7 @@ public class AnimalMovement : MonoBehaviour
         else sprite.transform.rotation = Quaternion.Euler(sprite.transform.rotation.x, 0f, sprite.transform.rotation.z);
     }
 
-    public void ThrownItem(Vector3 itemPos) {
+    public void FetchItem(Vector3 itemPos) {
         pickingUpItem = !pickingUpItem;
         newPosition = itemPos;
         if ((itemPos.magnitude * transform.position.magnitude) > 3f) {
