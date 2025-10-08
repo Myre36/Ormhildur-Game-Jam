@@ -49,9 +49,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CharacterMovement
   walkSpeed: 5
   sprintMultiplier: 1.5
-  cam: {fileID: 0}
-  throwPrefab: {fileID: 0}
-  throwForce: 0
+  cam: {fileID: 3113762115734957743}
+  throwPrefab: {fileID: 8764565958748990530, guid: 8dfeb4d5ccd0c0045aee848c66f4aecd, type: 3}
+  throwForce: 30
   anim: {fileID: 5639692743413675650}
   sprite: {fileID: 9130380843879545872}
 --- !u!114 &6640958789638809024
