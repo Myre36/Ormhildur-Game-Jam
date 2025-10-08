@@ -20,6 +20,8 @@ public class CharacterMovement : MonoBehaviour
     private GameObject throwPrefab;
     [SerializeField] 
     private float throwForce = 10f;
+    [SerializeField]
+    private AnimalMovement animal;
 
     [SerializeField]
     private Animator anim;
@@ -100,6 +102,9 @@ public class CharacterMovement : MonoBehaviour
                 Vector3 direction = (hit.point - transform.position).normalized;
 
                 rb.AddForce(direction * throwForce, ForceMode.Impulse);
+
+                animal.ballPos = thrownObject.transform;
+                animal.pickingUpItem = true;
             }
             else
             {

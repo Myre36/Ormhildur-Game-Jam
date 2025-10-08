@@ -26,7 +26,10 @@ public class AnimalMovement : MonoBehaviour
     [SerializeField]
     private GameObject emoticons;
 
-    private bool pickingUpItem = false;
+    public bool pickingUpItem = false;
+    private bool returningItem = false;
+
+    public Transform ballPos;
 
     void Start()
     {
@@ -43,13 +46,14 @@ public class AnimalMovement : MonoBehaviour
             emoticons.SetActive(true);
         } else emoticons.SetActive(false);
 
+        if(pickingUpItem)
+        {
+            FetchItem();
+            Debug.Log("Fetching item");
+        }
         if (currentTimeBetween < Time.realtimeSinceStartup && !pickingUpItem) {
             Reposition();
             Debug.Log("Repositioning");
-        }
-        else if(pickingUpItem)
-        {
-            
         }
 
             agent.SetDestination(newPosition);
@@ -67,11 +71,22 @@ public class AnimalMovement : MonoBehaviour
         else sprite.transform.rotation = Quaternion.Euler(sprite.transform.rotation.x, 0f, sprite.transform.rotation.z);
     }
 
-    public void FetchItem(Vector3 itemPos) {
-        pickingUpItem = !pickingUpItem;
-        newPosition = itemPos;
-        if ((itemPos.magnitude * transform.position.magnitude) > 3f) {
-            newPosition = playerChar.transform.position;
+    public void FetchItem() 
+    {
+        newPosition = new Vector3(ballPos.position.x, 0f, ballPos.position.z);
+        if ((newPosition.magnitude * transform.position.magnitude) > 3f) {
+            returningItem = true;
+            pickingUpItem = false;
+        }
+    }
+
+    private void BringItem()
+    {
+        newPosition = new Vector3(playerChar.transform.position.x, 0f, playerChar.transform.position.z);
+        if ((newPosition.magnitude * transform.position.magnitude) > 3f)
+        {
+            returningItem = true;
+            pickingUpItem = false;
         }
     }
 }
