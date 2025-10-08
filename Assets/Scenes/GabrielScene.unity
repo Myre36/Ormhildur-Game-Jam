@@ -1572,7 +1572,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4873313411846627783, guid: 0bbbd356cf14b4245bb4b15585878920, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.362158
+      value: 11.59
       objectReference: {fileID: 0}
     - target: {fileID: 4873313411846627783, guid: 0bbbd356cf14b4245bb4b15585878920, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3189,13 +3189,25 @@ PrefabInstance:
       propertyPath: happinessBar
       value: 
       objectReference: {fileID: 1360878058}
+    - target: {fileID: 4513015116505513818, guid: 7749efa991912e94298403d0f8d67856, type: 3}
+      propertyPath: m_Radius
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4513015116505513818, guid: 7749efa991912e94298403d0f8d67856, type: 3}
+      propertyPath: m_BaseOffset
+      value: 1.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4513015116505513818, guid: 7749efa991912e94298403d0f8d67856, type: 3}
+      propertyPath: m_AutoBraking
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4905028120794648529, guid: 7749efa991912e94298403d0f8d67856, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4905028120794648529, guid: 7749efa991912e94298403d0f8d67856, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.19
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 4905028120794648529, guid: 7749efa991912e94298403d0f8d67856, type: 3}
       propertyPath: m_LocalPosition.z

@@ -41,7 +41,6 @@ public class AnimalMovement : MonoBehaviour
             animator.SetBool("IsWalking", false);
             newPosition = transform.position;
             emoticons.SetActive(true);
-            return;
         } else emoticons.SetActive(false);
 
         if (currentTimeBetween < Time.realtimeSinceStartup && !pickingUpItem) {
