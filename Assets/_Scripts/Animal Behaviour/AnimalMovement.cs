@@ -85,7 +85,7 @@ public class AnimalMovement : MonoBehaviour
         newPosition = new Vector3(playerChar.transform.position.x, 0f, playerChar.transform.position.z);
         if ((newPosition.magnitude * transform.position.magnitude) > 3f)
         {
-            returningItem = true;
+            returningItem = false;
             pickingUpItem = false;
         }
     }
