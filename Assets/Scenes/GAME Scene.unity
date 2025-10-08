@@ -203,7 +203,7 @@ Transform:
   m_GameObject: {fileID: 17900545}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 131.65826, y: 132.45828, z: -266.648}
+  m_LocalPosition: {x: 131.658, y: 130.667, z: -264.683}
   m_LocalScale: {x: 0.07769839, y: 0.07769839, z: 0.07769839}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -293,8 +293,8 @@ Transform:
   m_GameObject: {fileID: 18161057}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 129.20728, y: 132.02518, z: -268.38702}
-  m_LocalScale: {x: 0.08078039, y: 0.08078039, z: 0.08078039}
+  m_LocalPosition: {x: 127.429, y: 130.312, z: -264.35}
+  m_LocalScale: {x: 0.10220335, y: 0.10220335, z: 0.10220335}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 510040152}
@@ -780,7 +780,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: ab07f8d515587f14f998cb3da584b16c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -801,8 +801,8 @@ Transform:
   m_GameObject: {fileID: 211282033}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 28.67, y: 3.24, z: -7.85}
-  m_LocalScale: {x: 0.40356654, y: 0.40356654, z: 0.40356654}
+  m_LocalPosition: {x: 28.923, y: 2.84, z: -8.8974}
+  m_LocalScale: {x: 0.35514247, y: 0.35514247, z: 0.35514247}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 620098744}
@@ -1162,7 +1162,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: d3cb67dca0203a145985b39a35be8ba3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1453,8 +1453,8 @@ Transform:
   m_GameObject: {fileID: 432350042}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 142.64827, y: 133.33015, z: -267.11203}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 142.63, y: 131.33, z: -257.73}
+  m_LocalScale: {x: 0.4959169, y: 0.4959169, z: 0.4959169}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 510040152}
@@ -2140,7 +2140,7 @@ Transform:
   m_GameObject: {fileID: 722381051}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7, y: 4, z: -22.4}
+  m_LocalPosition: {x: -4.5, y: 4, z: -22.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2729,7 +2729,7 @@ Transform:
   m_GameObject: {fileID: 1271080619}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 52.00827, y: 133.06412, z: -262.342}
+  m_LocalPosition: {x: 61.5, y: 132.58, z: -257.26}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2834,7 +2834,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 4
+  m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: 80e1ee9520ab49b4781af313788eeb07, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2855,8 +2855,8 @@ Transform:
   m_GameObject: {fileID: 1333064610}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 32.17, y: 2.77, z: -8.0366}
-  m_LocalScale: {x: 0.41756833, y: 0.41756833, z: 0.41756833}
+  m_LocalPosition: {x: 32.003, y: 2.42, z: -9.0647}
+  m_LocalScale: {x: 0.36746418, y: 0.36746418, z: 0.36746418}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 620098744}
@@ -3237,8 +3237,8 @@ Transform:
   m_GameObject: {fileID: 1396030710}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 140.98827, y: 131.61388, z: -268.13202}
-  m_LocalScale: {x: 0.08835629, y: 0.08835629, z: 0.08835629}
+  m_LocalPosition: {x: 141.8, y: 130.48, z: -258.24}
+  m_LocalScale: {x: 0.043817375, y: 0.043817375, z: 0.043817375}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 510040152}
