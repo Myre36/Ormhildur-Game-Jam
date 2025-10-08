@@ -1,3 +1,4 @@
+using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -10,6 +11,10 @@ public class MoodController : MonoBehaviour
     public float hunger = 100f;
     public float happiness = 100f;
     public float hygiene = 100f;
+
+    public GameObject smiley;
+    public GameObject neutral;
+    public GameObject sad;
 
     public float decreaseRate = 0.1f;
     public float feedBoost = 50f;
@@ -57,7 +62,7 @@ public class MoodController : MonoBehaviour
     public void Play()
     {
         happiness = 100f;
-  
+
         UpdateBars();
     }
     public void Pet()
@@ -72,5 +77,26 @@ public class MoodController : MonoBehaviour
         if (hungerBar) hungerBar.value = hunger / 100f;
         if (happinessBar) happinessBar.value = happiness / 100f;
         if (hygieneBar) hygieneBar.value = hygiene / 100f;
+    }
+    private void UpdateMoodFaces()
+    {
+        if (happiness > 60f)
+        {
+            smiley.SetActive(true);
+            neutral.SetActive(false);
+            sad.SetActive(false);
+        }
+        else if (happiness > 30f)
+        {
+            smiley.SetActive(false);
+            neutral.SetActive(true);
+            sad.SetActive(false);
+        }
+        else
+        {
+            smiley.SetActive(false);
+            neutral.SetActive(false);
+            sad.SetActive(true);
+        }
     }
 }
