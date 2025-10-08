@@ -19,7 +19,7 @@ public class CharacterMovement : MonoBehaviour
     [SerializeField] 
     private GameObject throwPrefab;
     [SerializeField] 
-    private float throwForce;
+    private float throwForce = 10f;
 
     [SerializeField]
     private Animator anim;
@@ -30,8 +30,31 @@ public class CharacterMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(Input.GetKeyDown(KeyCode.T))
+        {
+            if(!throwing)
+            {
+                throwing = true;
+            }
+            else
+            {
+                throwing = false;
+            }
+        }
+
         if(throwing)
         {
+            anim.SetBool("WalkingUp", false);
+            anim.SetBool("WalkingDown", false);
+            anim.SetBool("WalkingSide", false);
+            anim.SetBool("WalkingDiagonal", false);
+            anim.SetBool("RunningUp", false);
+            anim.SetBool("RunningDown", false);
+            anim.SetBool("RunningSide", false);
+            anim.SetBool("RunningDiagonal", false);
+
+            sprite.flipX = false;
+
             if (Input.GetMouseButtonDown(0))
             {
                 Throw();
