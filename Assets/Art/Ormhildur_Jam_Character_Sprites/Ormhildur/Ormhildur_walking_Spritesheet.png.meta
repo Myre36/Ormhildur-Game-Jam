@@ -1,0 +1,1903 @@
+fileFormatVersion: 2
+guid: 19873f6c60c2a9e4ca60cd7d9397fcb4
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3460
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce631961b4d42c47814b9116608f840
+      internalID: 1189911651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 3460
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b63a8e6e894347647af4771e2848a128
+      internalID: 135836606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 3460
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8330f88dc053c1469c5522c60765449
+      internalID: 695226903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 3460
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43feea2ab73653845ba7672f1eacc3c4
+      internalID: 393617359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 3460
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73beb3ddc12317f4db4d4c4b3555679e
+      internalID: 1303461901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 3460
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 734a6c48b7e960444a287ae0f2d66e81
+      internalID: 909287147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 3460
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2ccfe20d4a6d0d439832879f0ed448d
+      internalID: -1347879469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 2079
+        y: 3460
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67fb289ab62ab73468d4122018c61c5b
+      internalID: 29345194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 2376
+        y: 3460
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc215e83fedc224f9b1091720124525
+      internalID: 896983473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 2673
+        y: 3460
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09d4bc2d3746d884eae9ea41f1a9e134
+      internalID: -1637220534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 2970
+        y: 3460
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da362a29c61fbf4bb16d6cf1b0cf25a
+      internalID: 329382210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 3267
+        y: 3460
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54b4dfd9c4ad54a4ea56d507b7d64147
+      internalID: 804967392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 3564
+        y: 3460
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88d9ecc3dadc8564f9fbf26c0f4ec708
+      internalID: 1413294070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 3861
+        y: 3460
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5115ae6caad7e741b27cdbddcd3fdf7
+      internalID: 582055971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2768
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41ae97987037c3c43b32ecaa7b5a87ca
+      internalID: -1705964109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 2768
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 453429bf89cd37141870434268f9c3f3
+      internalID: 1642399439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 2768
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc40dafd52acc5f42b9f8386d5ccc810
+      internalID: -553309194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 2768
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff7e3d845364423448205ea78d30e59b
+      internalID: -1955322278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 2768
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c20e210b55e01ab4293e3e47167e6e40
+      internalID: 2098237050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 2768
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a891b49dda0ae048a43a24b24890d93
+      internalID: -62537706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 2768
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b739e6133bcc1249afeb2c383df41c3
+      internalID: -1581535644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 2079
+        y: 2768
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b87c1ca5142510a4d99072679548e338
+      internalID: 1250807350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 2376
+        y: 2768
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23832a3a785b16640a5f2c67e0fc8347
+      internalID: -437092741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 2673
+        y: 2768
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f270ae42e391526428ce3c676880f407
+      internalID: 1282516985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 2970
+        y: 2768
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09677bc02eda3b8439bfd6ff3b78e445
+      internalID: 238954486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 3267
+        y: 2768
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7df0b1e8c287e34299634856a5d37c9
+      internalID: 106861989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 3564
+        y: 2768
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e41ccd2a72c743348800055525765984
+      internalID: 2078153539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 3861
+        y: 2768
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd2e62e39052a2340898db3938e6ae0f
+      internalID: -117507277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2076
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a023d27b66b0f948872617f56ede793
+      internalID: 1760857882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 2076
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 062b2f298aa54f74f8e5920730b7e13c
+      internalID: 159624824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 2076
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00407225335345643a15399b54b1865e
+      internalID: 104913761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 2076
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b0f0be0f0b394b4db709170ec64eeb3
+      internalID: -842518533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 2076
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3266b15f17aa0f341a42f4396430a4f2
+      internalID: -350176683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 2076
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b14498ac47f3d524d9207789fcde4dd8
+      internalID: -411235131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 2076
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f89e8e6730db0d647bb6f33e90173d84
+      internalID: -1956748670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 2079
+        y: 2076
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b565c60b81dfea945b2dcf1aa43da53f
+      internalID: -1787588644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 2376
+        y: 2076
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b025af41a1daf7e4eae9198183665e93
+      internalID: 877684619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 2673
+        y: 2076
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1cffdbfcd0b7f94291224a201595ae7
+      internalID: 1397656810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 2970
+        y: 2076
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb784aa2ad003441b46e278ac4f905a
+      internalID: 955248615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 3267
+        y: 2076
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75604c5c4b48a0448abb7bdbc64d6b48
+      internalID: -1809815213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 3564
+        y: 2076
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 175cf5d9fe7f8c847bdf5b49f4688c20
+      internalID: -921394250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 3861
+        y: 2076
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f0658ab272511d479ee08949dbb784b
+      internalID: 1419395989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1384
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2766be3226173124bac585054ffe1e38
+      internalID: 456153779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 1384
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1e0751ea2503564d83af53ae0cc8c33
+      internalID: -482211927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 1384
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9e11e72cbee08d42aa512b62b4e883e
+      internalID: 729267539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 1384
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d642fd2353ad6664b8393ba2b7a623bc
+      internalID: 1415367200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 1384
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efd43a855582bf547aeb8a18a091592b
+      internalID: -1593469318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 1384
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f63a8aff36793cc4b90983830a42f7d3
+      internalID: -562877889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 1384
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2febffac7b3009142bac697ca79d5d39
+      internalID: -309085931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 2079
+        y: 1384
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8bba7a4f768c5d4fa56b6f1b3dad542
+      internalID: -1885732155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 2376
+        y: 1384
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee3c07048d83a724394af5561f5e66ca
+      internalID: 1009780688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 2673
+        y: 1384
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0aff1d71c155084a8b5f29f6ebeb0b2
+      internalID: 961162353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 2970
+        y: 1384
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b5a7fef9174f494da6d8f8821ff46dd
+      internalID: -264884532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_53
+      rect:
+        serializedVersion: 2
+        x: 3267
+        y: 1384
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05db830cc02fb1f46800dff285302f42
+      internalID: 2024020922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_54
+      rect:
+        serializedVersion: 2
+        x: 3564
+        y: 1384
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d88bd7dd6a287b04a91aa93673aefd42
+      internalID: -1626450766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_55
+      rect:
+        serializedVersion: 2
+        x: 3861
+        y: 1384
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d5ae8c3e4a795a42b33b367d84f1b54
+      internalID: 975226708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 692
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 466b8466f9322ae49a4d6b1dbebe214e
+      internalID: -1255630843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_57
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 692
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fedfcd329235c524b902aae246e63e1f
+      internalID: 362720545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_58
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 692
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7acf7c1e5d74b9b41811c2252b20dd55
+      internalID: 1287886041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_59
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 692
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21023c087c87b4148aefd09899f27c1c
+      internalID: 1510010868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_60
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 692
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fbfc80d0e0af9f46aa0ea1b0c51ccfe
+      internalID: -1285950752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_61
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 692
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cada79e2b919324f958d0e974338ddb
+      internalID: -947669990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_62
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 692
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40c3a7b6eb8dc3640bcfafaf6d2b0d6c
+      internalID: -1732175140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_63
+      rect:
+        serializedVersion: 2
+        x: 2079
+        y: 692
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3018e1c84d58ad499b7655ee87cdf72
+      internalID: 1347193380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_64
+      rect:
+        serializedVersion: 2
+        x: 2376
+        y: 692
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3881f3aa61615da48978c05e394297ea
+      internalID: -452681934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_65
+      rect:
+        serializedVersion: 2
+        x: 2673
+        y: 692
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aa02b101e3b20548a8beb06948cc9bc
+      internalID: 219463957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_66
+      rect:
+        serializedVersion: 2
+        x: 2970
+        y: 692
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab09a96306cc0f4ea974cdba65d9ffc
+      internalID: 1566180679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_67
+      rect:
+        serializedVersion: 2
+        x: 3267
+        y: 692
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acb3c991eeb22b247b61d248aed40dd5
+      internalID: -2142899739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_68
+      rect:
+        serializedVersion: 2
+        x: 3564
+        y: 692
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cabf8f48eb46c749a14c2de07eed5ac
+      internalID: 10780988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_69
+      rect:
+        serializedVersion: 2
+        x: 3861
+        y: 692
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a47ee0fbc017b8c4e892036299a39791
+      internalID: 1016979457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f1772e3af0e0a44bf355863a6bed84
+      internalID: 244188111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_71
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 0
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 318e8d100f0875643a68a7c066e775ac
+      internalID: 1815714558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_72
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 0
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91979019e296e2d448774c094a477cdf
+      internalID: 1704263115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_73
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 0
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bea484819eac08441b3bafe4269e2600
+      internalID: -989479535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_74
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 0
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 927991680efbd524c826671f8b6ad0c2
+      internalID: 1185823457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_75
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 0
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e908e9d2e24aee46a57edf0e27b6886
+      internalID: -1163600862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_walking_Spritesheet_76
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 0
+        width: 297
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972241970c69c154892c65b16560c499
+      internalID: 260948787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d400c1d5b4758a446a8cbaba76ad2c18
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":14.0,"y":6.0},"gridSpriteSize":{"x":297.0,"y":692.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Ormhildur_walking_Spritesheet_0: 1189911651
+      Ormhildur_walking_Spritesheet_1: 135836606
+      Ormhildur_walking_Spritesheet_10: 329382210
+      Ormhildur_walking_Spritesheet_11: 804967392
+      Ormhildur_walking_Spritesheet_12: 1413294070
+      Ormhildur_walking_Spritesheet_13: 582055971
+      Ormhildur_walking_Spritesheet_14: -1705964109
+      Ormhildur_walking_Spritesheet_15: 1642399439
+      Ormhildur_walking_Spritesheet_16: -553309194
+      Ormhildur_walking_Spritesheet_17: -1955322278
+      Ormhildur_walking_Spritesheet_18: 2098237050
+      Ormhildur_walking_Spritesheet_19: -62537706
+      Ormhildur_walking_Spritesheet_2: 695226903
+      Ormhildur_walking_Spritesheet_20: -1581535644
+      Ormhildur_walking_Spritesheet_21: 1250807350
+      Ormhildur_walking_Spritesheet_22: -437092741
+      Ormhildur_walking_Spritesheet_23: 1282516985
+      Ormhildur_walking_Spritesheet_24: 238954486
+      Ormhildur_walking_Spritesheet_25: 106861989
+      Ormhildur_walking_Spritesheet_26: 2078153539
+      Ormhildur_walking_Spritesheet_27: -117507277
+      Ormhildur_walking_Spritesheet_28: 1760857882
+      Ormhildur_walking_Spritesheet_29: 159624824
+      Ormhildur_walking_Spritesheet_3: 393617359
+      Ormhildur_walking_Spritesheet_30: 104913761
+      Ormhildur_walking_Spritesheet_31: -842518533
+      Ormhildur_walking_Spritesheet_32: -350176683
+      Ormhildur_walking_Spritesheet_33: -411235131
+      Ormhildur_walking_Spritesheet_34: -1956748670
+      Ormhildur_walking_Spritesheet_35: -1787588644
+      Ormhildur_walking_Spritesheet_36: 877684619
+      Ormhildur_walking_Spritesheet_37: 1397656810
+      Ormhildur_walking_Spritesheet_38: 955248615
+      Ormhildur_walking_Spritesheet_39: -1809815213
+      Ormhildur_walking_Spritesheet_4: 1303461901
+      Ormhildur_walking_Spritesheet_40: -921394250
+      Ormhildur_walking_Spritesheet_41: 1419395989
+      Ormhildur_walking_Spritesheet_42: 456153779
+      Ormhildur_walking_Spritesheet_43: -482211927
+      Ormhildur_walking_Spritesheet_44: 729267539
+      Ormhildur_walking_Spritesheet_45: 1415367200
+      Ormhildur_walking_Spritesheet_46: -1593469318
+      Ormhildur_walking_Spritesheet_47: -562877889
+      Ormhildur_walking_Spritesheet_48: -309085931
+      Ormhildur_walking_Spritesheet_49: -1885732155
+      Ormhildur_walking_Spritesheet_5: 909287147
+      Ormhildur_walking_Spritesheet_50: 1009780688
+      Ormhildur_walking_Spritesheet_51: 961162353
+      Ormhildur_walking_Spritesheet_52: -264884532
+      Ormhildur_walking_Spritesheet_53: 2024020922
+      Ormhildur_walking_Spritesheet_54: -1626450766
+      Ormhildur_walking_Spritesheet_55: 975226708
+      Ormhildur_walking_Spritesheet_56: -1255630843
+      Ormhildur_walking_Spritesheet_57: 362720545
+      Ormhildur_walking_Spritesheet_58: 1287886041
+      Ormhildur_walking_Spritesheet_59: 1510010868
+      Ormhildur_walking_Spritesheet_6: -1347879469
+      Ormhildur_walking_Spritesheet_60: -1285950752
+      Ormhildur_walking_Spritesheet_61: -947669990
+      Ormhildur_walking_Spritesheet_62: -1732175140
+      Ormhildur_walking_Spritesheet_63: 1347193380
+      Ormhildur_walking_Spritesheet_64: -452681934
+      Ormhildur_walking_Spritesheet_65: 219463957
+      Ormhildur_walking_Spritesheet_66: 1566180679
+      Ormhildur_walking_Spritesheet_67: -2142899739
+      Ormhildur_walking_Spritesheet_68: 10780988
+      Ormhildur_walking_Spritesheet_69: 1016979457
+      Ormhildur_walking_Spritesheet_7: 29345194
+      Ormhildur_walking_Spritesheet_70: 244188111
+      Ormhildur_walking_Spritesheet_71: 1815714558
+      Ormhildur_walking_Spritesheet_72: 1704263115
+      Ormhildur_walking_Spritesheet_73: -989479535
+      Ormhildur_walking_Spritesheet_74: 1185823457
+      Ormhildur_walking_Spritesheet_75: -1163600862
+      Ormhildur_walking_Spritesheet_76: 260948787
+      Ormhildur_walking_Spritesheet_8: 896983473
+      Ormhildur_walking_Spritesheet_9: -1637220534
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

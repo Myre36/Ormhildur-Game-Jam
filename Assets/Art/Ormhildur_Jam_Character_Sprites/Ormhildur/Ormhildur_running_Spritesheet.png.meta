@@ -1,0 +1,1259 @@
+fileFormatVersion: 2
+guid: 8f5d7205eba5d704e985a08925830811
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ormhildur_running_Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2888
+        width: 472
+        height: 722
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 859377141e37585448b4c47636d48ac5
+      internalID: -638988754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_running_Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 2888
+        width: 472
+        height: 722
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd72a54cb2b6ec542a9fc90ce7a68350
+      internalID: -1150863696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_running_Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 2888
+        width: 472
+        height: 722
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384c2996a69eeb74c827b5ae861d875b
+      internalID: 1684442953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_running_Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 2888
+        width: 472
+        height: 722
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bff51001b8b5ec4eba82a939fa1b8a8
+      internalID: -998341281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_running_Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 2888
+        width: 472
+        height: 722
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2876803f1d17714c84b6c0d42242c83
+      internalID: 1868646379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_running_Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 2360
+        y: 2888
+        width: 472
+        height: 722
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe5606c9251b2d04b9257e3eaab867ae
+      internalID: 2041387076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_running_Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 2832
+        y: 2888
+        width: 472
+        height: 722
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3494e11a23f2ba84b9030585889cd7b4
+      internalID: 1657970634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_running_Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 3304
+        y: 2888
+        width: 472
+        height: 722
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1425678cf78e7246a1b53ab7319df0c
+      internalID: -311058698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_running_Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 3776
+        y: 2888
+        width: 472
+        height: 722
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ee438efd29117145bfb75ec8909051a
+      internalID: 879921105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_running_Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 4248
+        y: 2888
+        width: 472
+        height: 722
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aaa535c1af1d4243b44a27e8daed07a
+      internalID: -257422577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_running_Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2166
+        width: 472
+        height: 722
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 052d636a14f9f124d86711152dc80073
+      internalID: -1748856830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_running_Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 2166
+        width: 472
+        height: 722
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 165583eee6915e844b5d5077ceee3144
+      internalID: 1549975195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_running_Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 2166
+        width: 472
+        height: 722
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 159da299a31962d448edfbde186324be
+      internalID: 1442646386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_running_Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 2166
+        width: 472
+        height: 722
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13b9d56858855714ca4fa0154c5a3cf4
+      internalID: 738779872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_running_Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 2166
+        width: 472
+        height: 722
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17bd6a4e0ef90db408b56576c2a147a5
+      internalID: 1654094409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_running_Spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 2360
+        y: 2166
+        width: 472
+        height: 722
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbd5e8b57a0cfdd488631d4a6437d2b8
+      internalID: -1257536650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_running_Spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 2832
+        y: 2166
+        width: 472
+        height: 722
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a96ed5e9cecf9b4a8e671cf9a15ca22
+      internalID: 1417364350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_running_Spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 3304
+        y: 2166
+        width: 472
+        height: 722
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7abbcfd92c637d9479f6facce2bbe8f9
+      internalID: -1789302684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_running_Spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 3776
+        y: 2166
+        width: 472
+        height: 722
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a23f7a03b99f9d549929fbbd4572225f
+      internalID: -1241243112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_running_Spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 4248
+        y: 2166
+        width: 472
+        height: 722
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 723c63d194f8453499039f9f8d73761a
+      internalID: 514274735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_running_Spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1444
+        width: 472
+        height: 722
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2524334bc8ad85f4ab2597412172dedf
+      internalID: 863690198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_running_Spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 1444
+        width: 472
+        height: 722
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ed8c5ae1bb37d4ea150b1013b8ef6a
+      internalID: -1161420866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_running_Spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 1444
+        width: 472
+        height: 722
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db081721cf8196e40b357ea3796dbdd0
+      internalID: 2007635274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_running_Spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 1444
+        width: 472
+        height: 722
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11593fe407c7a3847924afbcea15bc74
+      internalID: 355797608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_running_Spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 1444
+        width: 472
+        height: 722
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73a86320ab0ad4743b3345ed90230f51
+      internalID: -163406145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_running_Spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 2360
+        y: 1444
+        width: 472
+        height: 722
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f38099729009be49ad49e350fa468d9
+      internalID: -635059193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_running_Spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 2832
+        y: 1444
+        width: 472
+        height: 722
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e7d00ac809a5334295bebf1bd36157d
+      internalID: -1444520515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_running_Spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 3304
+        y: 1444
+        width: 472
+        height: 722
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb074c20eb484f49837750b4239b079
+      internalID: -1061196148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_running_Spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 3776
+        y: 1444
+        width: 472
+        height: 722
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8301823cbe0c07045a44075af50a482d
+      internalID: -1546102443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_running_Spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 4248
+        y: 1444
+        width: 472
+        height: 722
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56938fc2d7799eb459378eb31ef7bc94
+      internalID: -206053116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_running_Spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 722
+        width: 472
+        height: 722
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a817687254db74281a9921ebf60951
+      internalID: 1306663881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_running_Spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 722
+        width: 472
+        height: 722
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6958d78908680f489a1b338fddcbd0c
+      internalID: 313028048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_running_Spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 722
+        width: 472
+        height: 722
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c76cdb4f7e5dd241be6efd088aa77c2
+      internalID: -308772617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_running_Spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 722
+        width: 472
+        height: 722
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 528d17a979869c34ea5413fc8a7de9ba
+      internalID: 449841720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_running_Spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 722
+        width: 472
+        height: 722
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28dab0496b78bed4e9cc91c886367164
+      internalID: -1857412270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_running_Spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 2360
+        y: 722
+        width: 472
+        height: 722
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dcf89de372a6f348b5049a4eb29d40d
+      internalID: 1411704309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_running_Spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 2832
+        y: 722
+        width: 472
+        height: 722
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 471829dcfbd75704880bb5e7771759cb
+      internalID: -1483245220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_running_Spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 3304
+        y: 722
+        width: 472
+        height: 722
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfa6ed07eadf1714da557a1402c86051
+      internalID: 1744884683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_running_Spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 3776
+        y: 722
+        width: 472
+        height: 722
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9375fe3153883e9438b977f3d3b476a4
+      internalID: -654755638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_running_Spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 4248
+        y: 722
+        width: 472
+        height: 722
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d8075ff1137d524eaa3884e483659e6
+      internalID: -710906684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_running_Spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 472
+        height: 722
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d177ef07142374d97449898bdb4d0e
+      internalID: 2092173665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_running_Spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 0
+        width: 472
+        height: 722
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c371eaa0daf86594d88d89c78a1134d1
+      internalID: -558605304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_running_Spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 0
+        width: 472
+        height: 722
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ae5806ae5ae5f04c8063601e210c763
+      internalID: 303974811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_running_Spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 0
+        width: 472
+        height: 722
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f88c483ae9dda142874dab7616e784f
+      internalID: 1483556166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_running_Spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 0
+        width: 472
+        height: 722
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb5bed09fc96074aa0c4e7972b004fa
+      internalID: 866113454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_running_Spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 2360
+        y: 0
+        width: 472
+        height: 722
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 101b9fb1c30b6a642b67b815c6126ec6
+      internalID: 1238304367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_running_Spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 2832
+        y: 0
+        width: 472
+        height: 722
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fc2c9c780d925849b6637ca49713216
+      internalID: -722543423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_running_Spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 3304
+        y: 0
+        width: 472
+        height: 722
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72ed9a26896748b41a7ea793c49a0ef7
+      internalID: -415637214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ormhildur_running_Spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 3776
+        y: 0
+        width: 472
+        height: 722
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f52fe5dd158e66468aa55af601c19af
+      internalID: 330964381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d9caee72029ac5140b776e519f604074
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":10.0,"y":5.0},"gridSpriteSize":{"x":472.0,"y":722.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Ormhildur_running_Spritesheet_0: -638988754
+      Ormhildur_running_Spritesheet_1: -1150863696
+      Ormhildur_running_Spritesheet_10: -1748856830
+      Ormhildur_running_Spritesheet_11: 1549975195
+      Ormhildur_running_Spritesheet_12: 1442646386
+      Ormhildur_running_Spritesheet_13: 738779872
+      Ormhildur_running_Spritesheet_14: 1654094409
+      Ormhildur_running_Spritesheet_15: -1257536650
+      Ormhildur_running_Spritesheet_16: 1417364350
+      Ormhildur_running_Spritesheet_17: -1789302684
+      Ormhildur_running_Spritesheet_18: -1241243112
+      Ormhildur_running_Spritesheet_19: 514274735
+      Ormhildur_running_Spritesheet_2: 1684442953
+      Ormhildur_running_Spritesheet_20: 863690198
+      Ormhildur_running_Spritesheet_21: -1161420866
+      Ormhildur_running_Spritesheet_22: 2007635274
+      Ormhildur_running_Spritesheet_23: 355797608
+      Ormhildur_running_Spritesheet_24: -163406145
+      Ormhildur_running_Spritesheet_25: -635059193
+      Ormhildur_running_Spritesheet_26: -1444520515
+      Ormhildur_running_Spritesheet_27: -1061196148
+      Ormhildur_running_Spritesheet_28: -1546102443
+      Ormhildur_running_Spritesheet_29: -206053116
+      Ormhildur_running_Spritesheet_3: -998341281
+      Ormhildur_running_Spritesheet_30: 1306663881
+      Ormhildur_running_Spritesheet_31: 313028048
+      Ormhildur_running_Spritesheet_32: -308772617
+      Ormhildur_running_Spritesheet_33: 449841720
+      Ormhildur_running_Spritesheet_34: -1857412270
+      Ormhildur_running_Spritesheet_35: 1411704309
+      Ormhildur_running_Spritesheet_36: -1483245220
+      Ormhildur_running_Spritesheet_37: 1744884683
+      Ormhildur_running_Spritesheet_38: -654755638
+      Ormhildur_running_Spritesheet_39: -710906684
+      Ormhildur_running_Spritesheet_4: 1868646379
+      Ormhildur_running_Spritesheet_40: 2092173665
+      Ormhildur_running_Spritesheet_41: -558605304
+      Ormhildur_running_Spritesheet_42: 303974811
+      Ormhildur_running_Spritesheet_43: 1483556166
+      Ormhildur_running_Spritesheet_44: 866113454
+      Ormhildur_running_Spritesheet_45: 1238304367
+      Ormhildur_running_Spritesheet_46: -722543423
+      Ormhildur_running_Spritesheet_47: -415637214
+      Ormhildur_running_Spritesheet_48: 330964381
+      Ormhildur_running_Spritesheet_5: 2041387076
+      Ormhildur_running_Spritesheet_6: 1657970634
+      Ormhildur_running_Spritesheet_7: -311058698
+      Ormhildur_running_Spritesheet_8: 879921105
+      Ormhildur_running_Spritesheet_9: -257422577
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
