@@ -1,0 +1,706 @@
+fileFormatVersion: 2
+guid: d8e3ad242bd6554438994f6fdf3ae9c6
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Kitty_Walking_Sad_Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 2881
+        y: 1951
+        width: 724
+        height: 496
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1832c6a0b92051b49a0f32bf1d889670
+      internalID: -32191846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kitty_Walking_Sad_Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 3612
+        y: 1931
+        width: 718
+        height: 528
+      alignment: 9
+      pivot: {x: 0.49601895, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b7142c537ab0d448a8fd2e622aae44d
+      internalID: 95470841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kitty_Walking_Sad_Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 4330
+        y: 1931
+        width: 717
+        height: 521
+      alignment: 9
+      pivot: {x: 0.5079732, y: 0.5109737}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a026b01c6b9af8c4eae67a8106a565f3
+      internalID: 1065340898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kitty_Walking_Sad_Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 5054
+        y: 1937
+        width: 717
+        height: 528
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f333658f0655b6b49a2dd2735e19a042
+      internalID: 223305443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kitty_Walking_Sad_Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 5778
+        y: 1951
+        width: 724
+        height: 487
+      alignment: 9
+      pivot: {x: 0.48551074, y: 0.52692616}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bef53ca5a092b4c4cb9ea90294104c61
+      internalID: -2065014096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kitty_Walking_Sad_Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1437
+        width: 723
+        height: 541
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f05fc21a057d3ae4b9f8355e7971960f
+      internalID: 551319403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kitty_Walking_Sad_Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 1457
+        width: 737
+        height: 480
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99c9cca677e9a81439af1cdb289736dc
+      internalID: 30075207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kitty_Walking_Sad_Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 1453
+        y: 1464
+        width: 724
+        height: 521
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 922ba03c0576ad242a7b16a453933ae8
+      internalID: 2062065522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kitty_Walking_Sad_Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 2177
+        y: 1484
+        width: 704
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6ae29c350ed16940a92552bb957b7f5
+      internalID: -1729000851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kitty_Walking_Sad_Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 2902
+        y: 1484
+        width: 697
+        height: 460
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5776b421f4ce7b8419044903b7adafc0
+      internalID: -1207734864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kitty_Walking_Sad_Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 3612
+        y: 1450
+        width: 731
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f916228f96f244544b5550d1ebb572ec
+      internalID: -702557968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kitty_Walking_Sad_Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 4363
+        y: 1450
+        width: 697
+        height: 474
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 249e93e6428208f4cb0c66cc4595df3c
+      internalID: 918019398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kitty_Walking_Sad_Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 5067
+        y: 1443
+        width: 731
+        height: 494
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69435d0dea7cc2c4f887014df8e5bb5c
+      internalID: 845883132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kitty_Walking_Sad_Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 5804
+        y: 1440
+        width: 703
+        height: 508
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a65d44418c0bef94b88ea0aa6e6404c4
+      internalID: -1433806477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kitty_Walking_Sad_Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 988
+        width: 723
+        height: 452
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc897b0bafb68f4792dccb8d1620fe7
+      internalID: -1937792198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kitty_Walking_Sad_Spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 962
+        width: 723
+        height: 484
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d9e43a5d4237fa4886966b653546100
+      internalID: 905717446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kitty_Walking_Sad_Spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 984
+        width: 724
+        height: 471
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41976b63f8f643b478ea771b0bc1057a
+      internalID: 652773592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kitty_Walking_Sad_Spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 947
+        width: 704
+        height: 514
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f42345a776130243859ecf14ae89e21
+      internalID: 1069524657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kitty_Walking_Sad_Spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 2896
+        y: 961
+        width: 695
+        height: 497
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d202f0566475846b21b81996b1b698
+      internalID: -2112173055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kitty_Walking_Sad_Spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 3613
+        y: 982
+        width: 720
+        height: 467
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c34fba82971220e4683daf1a14afe535
+      internalID: 137328458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kitty_Walking_Sad_Spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 4355
+        y: 959
+        width: 714
+        height: 484
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb6188f5fab66b54089a3a11af289c6b
+      internalID: 710046561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kitty_Walking_Sad_Spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 5060
+        y: 967
+        width: 724
+        height: 476
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 707f63a8e0d0b694cb09ef6b456edcf0
+      internalID: -645742627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kitty_Walking_Sad_Spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 5802
+        y: 948
+        width: 696
+        height: 493
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79bb6f315e055d84bba155449bb3ea24
+      internalID: -33859504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kitty_Walking_Sad_Spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 467
+        width: 714
+        height: 496
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27bf905ed1020c540a0c3443c346271b
+      internalID: 1553592051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kitty_Walking_Sad_Spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 481
+        width: 701
+        height: 464
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f2631fe659cdb34096eeb07b84a248d
+      internalID: 1981025497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Kitty_Walking_Sad_Spritesheet_0: -32191846
+      Kitty_Walking_Sad_Spritesheet_1: 95470841
+      Kitty_Walking_Sad_Spritesheet_10: -702557968
+      Kitty_Walking_Sad_Spritesheet_11: 918019398
+      Kitty_Walking_Sad_Spritesheet_12: 845883132
+      Kitty_Walking_Sad_Spritesheet_13: -1433806477
+      Kitty_Walking_Sad_Spritesheet_14: -1937792198
+      Kitty_Walking_Sad_Spritesheet_15: 905717446
+      Kitty_Walking_Sad_Spritesheet_16: 652773592
+      Kitty_Walking_Sad_Spritesheet_17: 1069524657
+      Kitty_Walking_Sad_Spritesheet_18: -2112173055
+      Kitty_Walking_Sad_Spritesheet_19: 137328458
+      Kitty_Walking_Sad_Spritesheet_2: 1065340898
+      Kitty_Walking_Sad_Spritesheet_20: 710046561
+      Kitty_Walking_Sad_Spritesheet_21: -645742627
+      Kitty_Walking_Sad_Spritesheet_22: -33859504
+      Kitty_Walking_Sad_Spritesheet_23: 1553592051
+      Kitty_Walking_Sad_Spritesheet_24: 1981025497
+      Kitty_Walking_Sad_Spritesheet_25: 223559665
+      Kitty_Walking_Sad_Spritesheet_3: 223305443
+      Kitty_Walking_Sad_Spritesheet_4: -2065014096
+      Kitty_Walking_Sad_Spritesheet_5: 551319403
+      Kitty_Walking_Sad_Spritesheet_6: 30075207
+      Kitty_Walking_Sad_Spritesheet_7: 2062065522
+      Kitty_Walking_Sad_Spritesheet_8: -1729000851
+      Kitty_Walking_Sad_Spritesheet_9: -1207734864
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
