@@ -27,10 +27,9 @@ public class MoodController : MonoBehaviour
 
     private void Update()
     {
-
-        hunger -= (decreaseRate / 6f) * Time.deltaTime;
-        happiness -= (decreaseRate / 6f) * Time.deltaTime;
-        hygiene -= (decreaseRate / 6f) * Time.deltaTime;
+        hunger -= (decreaseRate / 3f) * Time.deltaTime;
+        happiness -= (decreaseRate / 3f) * Time.deltaTime;
+        hygiene -= (decreaseRate / 3f) * Time.deltaTime;
 
 
         hunger = Mathf.Clamp(hunger, 0f, 100f);
@@ -38,6 +37,7 @@ public class MoodController : MonoBehaviour
         hygiene = Mathf.Clamp(hygiene, 0f, 100f);
 
         UpdateBars();
+        UpdateMoodFaces();
     }
 
     public void Feed()
