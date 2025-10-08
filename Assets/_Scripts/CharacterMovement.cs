@@ -31,7 +31,7 @@ public class CharacterMovement : MonoBehaviour
         moveDirection.x = Input.GetAxis("Horizontal");
         moveDirection.y = Input.GetAxis("Vertical");
 
-        Vector3 movement = new Vector3(moveDirection.x, moveDirection.y, 0.0f);
+        Vector3 movement = new Vector3(moveDirection.x, 0f, moveDirection.y);
 
         if(Input.GetKey(KeyCode.LeftShift))
         {
@@ -44,7 +44,7 @@ public class CharacterMovement : MonoBehaviour
             sprinting = false;
         }
 
-            Vector3 newPosition = transform.position + movement * moveSpeed * Time.deltaTime;
+        Vector3 newPosition = transform.position + movement * moveSpeed * Time.deltaTime;
         this.transform.position = newPosition;
 
         if(moveDirection == Vector2.zero)
