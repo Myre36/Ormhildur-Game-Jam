@@ -259,19 +259,19 @@ NavMeshAgent:
   m_GameObject: {fileID: 6533806999389259374}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.01
+  m_Radius: 4
   m_Speed: 2
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
   m_StoppingDistance: 0
   m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
+  m_AutoBraking: 0
   m_AutoRepath: 1
   m_Height: 3
-  m_BaseOffset: 1.5
+  m_BaseOffset: 1.6
   m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 0
+  m_ObstacleAvoidanceType: 4
 --- !u!114 &3515253560404171634
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -291,6 +291,8 @@ MonoBehaviour:
   animator: {fileID: 7567569888532087062}
   playerChar: {fileID: 0}
   emoticons: {fileID: 5396674675759084621}
+  pickingUpItem: 0
+  ballPos: {fileID: 0}
 --- !u!114 &2765106325216868275
 MonoBehaviour:
   m_ObjectHideFlags: 0

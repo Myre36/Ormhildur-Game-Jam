@@ -51,7 +51,12 @@ public class AnimalMovement : MonoBehaviour
             FetchItem();
             Debug.Log("Fetching item");
         }
-        if (currentTimeBetween < Time.realtimeSinceStartup && !pickingUpItem) {
+        else if(returningItem)
+        {
+            BringItem();
+            Debug.Log("Bringing item back");
+        }
+        else if (currentTimeBetween < Time.realtimeSinceStartup && !pickingUpItem) {
             Reposition();
             Debug.Log("Repositioning");
         }
@@ -74,19 +79,25 @@ public class AnimalMovement : MonoBehaviour
     public void FetchItem() 
     {
         newPosition = new Vector3(ballPos.position.x, 0f, ballPos.position.z);
-        if ((newPosition.magnitude * transform.position.magnitude) > 3f) {
+        animator.SetBool("IsWalking", true);
+        if (Vector3.Distance(newPosition, transform.position) < 4.5f) {
+            Debug.Log("Reached destination");
             returningItem = true;
             pickingUpItem = false;
+            Destroy(ballPos.gameObject);
         }
     }
 
     private void BringItem()
     {
         newPosition = new Vector3(playerChar.transform.position.x, 0f, playerChar.transform.position.z);
-        if ((newPosition.magnitude * transform.position.magnitude) > 3f)
+        animator.SetBool("IsWalking", true);
+        if (Vector3.Distance(newPosition, transform.position) < 4.5f)
         {
+            Debug.Log("Brought item back");
             returningItem = false;
             pickingUpItem = false;
+            playerChar.GetComponent<CharacterMovement>().hasBall = true;
         }
     }
 }

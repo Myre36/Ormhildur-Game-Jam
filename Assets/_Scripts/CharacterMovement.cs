@@ -14,6 +14,7 @@ public class CharacterMovement : MonoBehaviour
     private Vector2 moveDirection;
 
     private bool throwing = false;
+    public bool hasBall = true;
     [SerializeField]
     private Camera cam;
     [SerializeField] 
@@ -34,7 +35,7 @@ public class CharacterMovement : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.T))
         {
-            if(!throwing)
+            if(!throwing && hasBall)
             {
                 throwing = true;
             }
@@ -105,6 +106,8 @@ public class CharacterMovement : MonoBehaviour
 
                 animal.ballPos = thrownObject.transform;
                 animal.pickingUpItem = true;
+                hasBall = false;
+                throwing = false;
             }
             else
             {
