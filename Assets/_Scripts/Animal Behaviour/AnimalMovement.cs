@@ -47,8 +47,12 @@ public class AnimalMovement : MonoBehaviour
             Reposition();
             Debug.Log("Repositioning");
         }
+        else if(pickingUpItem)
+        {
+            
+        }
 
-        agent.SetDestination(newPosition);
+            agent.SetDestination(newPosition);
         if (Vector3.Distance(newPosition, transform.position) < 0.1f) animator.SetBool("IsWalking", false );
     }
 
