@@ -16,7 +16,7 @@ public class MoodController : MonoBehaviour
     public GameObject neutral;
     public GameObject sad;
 
-    public float decreaseRate = 0.1f;
+    public float decreaseRate = 0.5f;
     public float feedBoost = 50f;
     public float hygieneBoost = 30f;
     public float happinessPenaltyFromBath = 10f;
@@ -27,9 +27,9 @@ public class MoodController : MonoBehaviour
 
     private void Update()
     {
-        hunger -= (decreaseRate / 3f) * Time.deltaTime;
-        happiness -= (decreaseRate / 3f) * Time.deltaTime;
-        hygiene -= (decreaseRate / 3f) * Time.deltaTime;
+        hunger -= (decreaseRate / 1f) * Time.deltaTime;
+        happiness -= (decreaseRate / 1f) * Time.deltaTime;
+        hygiene -= (decreaseRate / 1f) * Time.deltaTime;
 
 
         hunger = Mathf.Clamp(hunger, 0f, 100f);
