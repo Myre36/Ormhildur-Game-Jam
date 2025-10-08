@@ -19,14 +19,14 @@ public class AnimalInteraction : MonoBehaviour
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.E)) {
-           if (Vector3.Distance(transform.position, animal.transform.position) < 1f) {
+           if (Vector3.Distance(transform.position, animal.transform.position) < 5f) {
                 Debug.Log("Menu Open");
                 animalMenu.SetActive(true);
            }
            else { Debug.Log("Too Far"); }
            
         }
-        if (Vector3.Distance(transform.position, animal.transform.position) > 1f) {
+        if (Vector3.Distance(transform.position, animal.transform.position) > 5f) {
             animalMenu.SetActive(false);
         }
     }

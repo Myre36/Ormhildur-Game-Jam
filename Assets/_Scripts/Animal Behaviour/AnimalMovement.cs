@@ -1,6 +1,5 @@
 using UnityEngine;
 using UnityEngine.AI;
-using UnityEngine.UIElements;
 
 public class AnimalMovement : MonoBehaviour
 {
@@ -24,6 +23,10 @@ public class AnimalMovement : MonoBehaviour
 
     [SerializeField]
     private GameObject playerChar;
+    [SerializeField]
+    private GameObject emoticons;
+
+    private bool pickingUpItem = false;
 
     void Start()
     {
@@ -34,12 +37,14 @@ public class AnimalMovement : MonoBehaviour
 
     void Update()
     {
-        if (Vector3.Distance(transform.position, playerChar.transform.position) < 1f) {
+        if (Vector3.Distance(transform.position, playerChar.transform.position) < 5f) {
             animator.SetBool("IsWalking", false);
+            newPosition = transform.position;
+            emoticons.SetActive(true);
             return;
-        }
-        
-        if (currentTimeBetween < Time.realtimeSinceStartup) {
+        } else emoticons.SetActive(false);
+
+        if (currentTimeBetween < Time.realtimeSinceStartup && !pickingUpItem) {
             Reposition();
             Debug.Log("Repositioning");
         }
@@ -55,7 +60,15 @@ public class AnimalMovement : MonoBehaviour
         Debug.Log(newPosition);
         animator.SetBool("IsWalking", true);
         currentTimeBetween = Time.realtimeSinceStartup + timeBetweenMovements;
-        if (newPosition.x < transform.position.x) { sprite.transform.rotation = Quaternion.Euler(-30f, 180f, sprite.transform.rotation.z); }
-        else sprite.transform.rotation = Quaternion.Euler(30f, 0f, sprite.transform.rotation.z);
+        if (newPosition.x < transform.position.x) { sprite.transform.rotation = Quaternion.Euler(sprite.transform.rotation.x, 180f, sprite.transform.rotation.z); }
+        else sprite.transform.rotation = Quaternion.Euler(sprite.transform.rotation.x, 0f, sprite.transform.rotation.z);
+    }
+
+    public void ThrownItem(Vector3 itemPos) {
+        pickingUpItem = !pickingUpItem;
+        newPosition = itemPos;
+        if ((itemPos.magnitude * transform.position.magnitude) > 3f) {
+            newPosition = playerChar.transform.position;
+        }
     }
 }
