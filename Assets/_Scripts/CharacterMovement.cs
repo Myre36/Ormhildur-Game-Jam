@@ -11,7 +11,9 @@ public class CharacterMovement : MonoBehaviour
 
     private bool sprinting;
 
-    private Vector2 moveDirection;
+    private Vector3 moveDirection;
+
+    private Rigidbody rb;
 
     private bool throwing = false;
     public bool hasBall = true;
@@ -35,6 +37,11 @@ public class CharacterMovement : MonoBehaviour
 
     [SerializeField]
     private SpriteRenderer sprite;
+
+    private void Start()
+    {
+        rb = GetComponent<Rigidbody>();
+    }
 
     // Update is called once per frame
     void Update()
@@ -101,9 +108,7 @@ public class CharacterMovement : MonoBehaviour
         else
         {
             moveDirection.x = Input.GetAxis("Horizontal");
-            moveDirection.y = Input.GetAxis("Vertical");
-
-            Vector3 movement = new Vector3(moveDirection.x, 0f, moveDirection.y);
+            moveDirection.z = Input.GetAxis("Vertical");
 
             if (Input.GetKey(KeyCode.LeftShift))
             {
@@ -116,11 +121,16 @@ public class CharacterMovement : MonoBehaviour
                 sprinting = false;
             }
 
-            Vector3 newPosition = transform.position + movement * moveSpeed * Time.deltaTime;
-            this.transform.position = newPosition;
+            //Vector3 newPosition = transform.position + movement * moveSpeed * Time.deltaTime;
+            //this.transform.position = newPosition;
 
             ChangeAnimation();
         }
+    }
+
+    private void FixedUpdate()
+    {
+        rb.MovePosition(rb.position + moveDirection * moveSpeed * Time.deltaTime);
     }
 
     public void Throw()
@@ -181,7 +191,7 @@ public class CharacterMovement : MonoBehaviour
 
     private void ChangeAnimation()
     {
-        if (moveDirection == Vector2.zero)
+        if (moveDirection == Vector3.zero)
         {
             anim.SetBool("WalkingUp", false);
             anim.SetBool("WalkingDown", false);
@@ -196,7 +206,7 @@ public class CharacterMovement : MonoBehaviour
         {
             if (!sprinting)
             {
-                if (moveDirection.x > 0f && moveDirection.y > 0f)
+                if (moveDirection.x > 0f && moveDirection.z > 0f)
                 {
                     anim.SetBool("WalkingUp", false);
                     anim.SetBool("WalkingDown", false);
@@ -210,7 +220,7 @@ public class CharacterMovement : MonoBehaviour
 
                     sprite.flipX = false;
                 }
-                else if (moveDirection.x < 0f && moveDirection.y > 0f)
+                else if (moveDirection.x < 0f && moveDirection.z > 0f)
                 {
                     anim.SetBool("WalkingUp", false);
                     anim.SetBool("WalkingDown", false);
@@ -224,7 +234,7 @@ public class CharacterMovement : MonoBehaviour
 
                     sprite.flipX = true;
                 }
-                else if (moveDirection.x > 0f && moveDirection.y < 0f)
+                else if (moveDirection.x > 0f && moveDirection.z < 0f)
                 {
                     anim.SetBool("WalkingUp", false);
                     anim.SetBool("WalkingDown", false);
@@ -238,7 +248,7 @@ public class CharacterMovement : MonoBehaviour
 
                     sprite.flipX = false;
                 }
-                else if (moveDirection.x < 0f && moveDirection.y < 0f)
+                else if (moveDirection.x < 0f && moveDirection.z < 0f)
                 {
                     anim.SetBool("WalkingUp", false);
                     anim.SetBool("WalkingDown", false);
@@ -280,7 +290,7 @@ public class CharacterMovement : MonoBehaviour
 
                     sprite.flipX = true;
                 }
-                else if (moveDirection.y > 0f)
+                else if (moveDirection.z > 0f)
                 {
                     anim.SetBool("WalkingDown", false);
                     anim.SetBool("WalkingSide", false);
@@ -294,7 +304,7 @@ public class CharacterMovement : MonoBehaviour
 
                     sprite.flipX = false;
                 }
-                else if (moveDirection.y < 0f)
+                else if (moveDirection.z < 0f)
                 {
                     anim.SetBool("WalkingUp", false);
                     anim.SetBool("WalkingSide", false);
@@ -324,7 +334,7 @@ public class CharacterMovement : MonoBehaviour
             }
             else
             {
-                if (moveDirection.x > 0f && moveDirection.y > 0f)
+                if (moveDirection.x > 0f && moveDirection.z > 0f)
                 {
                     anim.SetBool("WalkingUp", false);
                     anim.SetBool("WalkingDown", false);
@@ -338,7 +348,7 @@ public class CharacterMovement : MonoBehaviour
 
                     sprite.flipX = false;
                 }
-                else if (moveDirection.x < 0f && moveDirection.y > 0f)
+                else if (moveDirection.x < 0f && moveDirection.z > 0f)
                 {
                     anim.SetBool("WalkingUp", false);
                     anim.SetBool("WalkingDown", false);
@@ -352,7 +362,7 @@ public class CharacterMovement : MonoBehaviour
 
                     sprite.flipX = true;
                 }
-                else if (moveDirection.x > 0f && moveDirection.y < 0f)
+                else if (moveDirection.x > 0f && moveDirection.z < 0f)
                 {
                     anim.SetBool("WalkingUp", false);
                     anim.SetBool("WalkingDown", false);
@@ -366,7 +376,7 @@ public class CharacterMovement : MonoBehaviour
 
                     sprite.flipX = false;
                 }
-                else if (moveDirection.x < 0f && moveDirection.y < 0f)
+                else if (moveDirection.x < 0f && moveDirection.z < 0f)
                 {
                     anim.SetBool("WalkingUp", false);
                     anim.SetBool("WalkingDown", false);
@@ -408,7 +418,7 @@ public class CharacterMovement : MonoBehaviour
 
                     sprite.flipX = true;
                 }
-                else if (moveDirection.y > 0f)
+                else if (moveDirection.z > 0f)
                 {
                     anim.SetBool("WalkingUp", false);
                     anim.SetBool("WalkingDown", false);
@@ -422,7 +432,7 @@ public class CharacterMovement : MonoBehaviour
 
                     sprite.flipX = false;
                 }
-                else if (moveDirection.y < 0f)
+                else if (moveDirection.z < 0f)
                 {
                     anim.SetBool("WalkingUp", false);
                     anim.SetBool("WalkingDown", false);
