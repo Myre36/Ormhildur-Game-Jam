@@ -55,10 +55,15 @@ public class MoodController : MonoBehaviour
 
     public void Feed()
     {
-        hunger = 100f;
+        hunger += 20f;
         happiness += feedBoost / 2f;
 
+        hygiene -= 15f;
+
         happiness = Mathf.Clamp(happiness, 0f, 100f);
+        hunger = Mathf.Clamp(hunger, 0f, 100f);
+        hygiene = Mathf.Clamp(hygiene, 0f, 100f);
+
         UpdateBars();
     }
     public void Bathe()
@@ -74,7 +79,15 @@ public class MoodController : MonoBehaviour
 
     public void Play()
     {
-        happiness = 100f;
+        happiness += 20f;
+
+        hygiene -= 10f;
+
+        hunger -= 15f;
+
+        happiness = Mathf.Clamp(happiness, 0f, 100f);
+        hunger = Mathf.Clamp(hunger, 0f, 100f);
+        hygiene = Mathf.Clamp(hygiene, 0f, 100f);
 
         UpdateBars();
     }
