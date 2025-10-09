@@ -8,7 +8,11 @@ public class AnimalMovement : MonoBehaviour
     [SerializeField]
     private float maxDistanceVertical = 10f;
     [SerializeField]
+    private float minDistanceVertical = -10f;
+    [SerializeField]
     private float maxDistanceHorizontal = 10f;
+    [SerializeField]
+    private float minDistanceHorizontal = -10f;
 
     private float timeBetweenMovements = 5f;
     private float currentTimeBetween;
@@ -79,7 +83,7 @@ public class AnimalMovement : MonoBehaviour
     void Reposition() {
         Debug.Log("Finding New Position");
         newPosition = new Vector3
-            (Random.Range(maxDistanceVertical, -maxDistanceVertical), transform.position.y, Random.Range(maxDistanceHorizontal, -maxDistanceHorizontal));
+            (Random.Range(maxDistanceHorizontal, minDistanceHorizontal), transform.position.y, Random.Range(maxDistanceVertical, minDistanceVertical));
         Debug.Log(newPosition);
         animator.SetBool("IsWalking", true);
         currentTimeBetween = Time.realtimeSinceStartup + timeBetweenMovements;
