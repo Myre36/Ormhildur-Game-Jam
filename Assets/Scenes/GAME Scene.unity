@@ -2378,6 +2378,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1275251783}
+  - {fileID: 960865696}
   - {fileID: 2064592768}
   - {fileID: 1636605900}
   - {fileID: 1414868812}
@@ -2395,6 +2396,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 960865696}
+  - component: {fileID: 960865697}
   m_Layer: 0
   m_Name: clouds
   m_TagString: Untagged
@@ -2411,7 +2413,7 @@ Transform:
   m_GameObject: {fileID: 960865695}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.6, y: 5.86638, z: -29}
+  m_LocalPosition: {x: 9.600003, y: 5.86638, z: -29}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2419,8 +2421,22 @@ Transform:
   - {fileID: 190066428}
   - {fileID: 21576905}
   - {fileID: 1690139990}
-  m_Father: {fileID: 1275251783}
+  m_Father: {fileID: 923935983}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &960865697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 960865695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8e592b5f8ebe664884afe8fa12ae4fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ParalaxEffect
+  cam: {fileID: 722381051}
+  parallaxEffect: 0.2
 --- !u!1 &1049537641
 GameObject:
   m_ObjectHideFlags: 0
@@ -2768,7 +2784,6 @@ Transform:
   - {fileID: 240250962}
   - {fileID: 120889979}
   - {fileID: 1997682684}
-  - {fileID: 960865696}
   m_Father: {fileID: 923935983}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1333064610
@@ -3685,6 +3700,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1636605900}
+  - component: {fileID: 1636605901}
   m_Layer: 0
   m_Name: mountains
   m_TagString: Untagged
@@ -3710,6 +3726,20 @@ Transform:
   - {fileID: 512390341}
   m_Father: {fileID: 923935983}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1636605901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1636605899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8e592b5f8ebe664884afe8fa12ae4fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ParalaxEffect
+  cam: {fileID: 722381051}
+  parallaxEffect: 0.1
 --- !u!1 &1652370485
 GameObject:
   m_ObjectHideFlags: 0
