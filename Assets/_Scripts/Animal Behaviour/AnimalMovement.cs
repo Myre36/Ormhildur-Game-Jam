@@ -95,6 +95,8 @@ public class AnimalMovement : MonoBehaviour
     {
         newPosition = new Vector3(ballPos.position.x, 0f, ballPos.position.z);
         animator.SetBool("IsWalking", true);
+        if (newPosition.x < transform.position.x) { sprite.transform.rotation = Quaternion.Euler(sprite.transform.rotation.x, 180f, sprite.transform.rotation.z); }
+        else sprite.transform.rotation = Quaternion.Euler(sprite.transform.rotation.x, 0f, sprite.transform.rotation.z);
         if (Vector3.Distance(newPosition, transform.position) < 4.5f) {
             Debug.Log("Reached destination");
             returningItem = true;
@@ -107,6 +109,8 @@ public class AnimalMovement : MonoBehaviour
     {
         newPosition = new Vector3(playerChar.transform.position.x, 0f, playerChar.transform.position.z);
         animator.SetBool("IsWalking", true);
+        if (newPosition.x < transform.position.x) { sprite.transform.rotation = Quaternion.Euler(sprite.transform.rotation.x, 180f, sprite.transform.rotation.z); }
+        else sprite.transform.rotation = Quaternion.Euler(sprite.transform.rotation.x, 0f, sprite.transform.rotation.z);
         if (Vector3.Distance(newPosition, transform.position) < 4.5f)
         {
             Debug.Log("Brought item back");
