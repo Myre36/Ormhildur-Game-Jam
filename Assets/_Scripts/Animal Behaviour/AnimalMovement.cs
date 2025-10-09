@@ -28,8 +28,11 @@ public class AnimalMovement : MonoBehaviour
 
     public bool pickingUpItem = false;
     private bool returningItem = false;
+    public bool eating = false;
 
     public Transform ballPos;
+
+    public Transform foodPos;
 
     void Start()
     {
@@ -56,6 +59,11 @@ public class AnimalMovement : MonoBehaviour
             BringItem();
             Debug.Log("Bringing item back");
         }
+        else if(eating)
+        {
+            GoEat();
+            Debug.Log("Going to eat");
+        }
         else if (currentTimeBetween < Time.realtimeSinceStartup && !pickingUpItem) {
             Reposition();
             Debug.Log("Repositioning");
@@ -76,7 +84,7 @@ public class AnimalMovement : MonoBehaviour
         else sprite.transform.rotation = Quaternion.Euler(sprite.transform.rotation.x, 0f, sprite.transform.rotation.z);
     }
 
-    public void FetchItem() 
+    private void FetchItem() 
     {
         newPosition = new Vector3(ballPos.position.x, 0f, ballPos.position.z);
         animator.SetBool("IsWalking", true);
@@ -98,6 +106,19 @@ public class AnimalMovement : MonoBehaviour
             returningItem = false;
             pickingUpItem = false;
             playerChar.GetComponent<CharacterMovement>().hasBall = true;
+        }
+    }
+
+    private void GoEat()
+    {
+        newPosition = new Vector3(foodPos.position.x, 0f, foodPos.position.z);
+        animator.SetBool("IsWalking", true);
+
+        if (Vector3.Distance(newPosition, transform.position) < 4.5f)
+        {
+            Debug.Log("Finished eating");
+            eating = false;
+            playerChar.GetComponent<CharacterMovement>().hasFood = true;
         }
     }
 }
