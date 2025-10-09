@@ -8,6 +8,12 @@ public class MoodController : MonoBehaviour
     public Slider happinessBar;
     public Slider hygieneBar;
 
+    public Gradient barGradient;
+
+    public Image barFillHunger;
+    public Image barFillHappiness;
+    public Image barFillHygene;
+
     public float hunger = 100f;
     public float happiness = 100f;
     public float hygiene = 100f;
@@ -23,6 +29,7 @@ public class MoodController : MonoBehaviour
     private void Start()
     {
         UpdateBars();
+        
     }
 
     private void Update()
@@ -35,6 +42,12 @@ public class MoodController : MonoBehaviour
         hunger = Mathf.Clamp(hunger, 0f, 100f);
         happiness = Mathf.Clamp(happiness, 0f, 100f);
         hygiene = Mathf.Clamp(hygiene, 0f, 100f);
+
+        barFillHappiness.color = barGradient.Evaluate(happiness);
+        barFillHygene.color = barGradient.Evaluate(hygiene);
+        barFillHunger.color = barGradient.Evaluate(hunger);
+
+
 
         UpdateBars();
         UpdateMoodFaces();
