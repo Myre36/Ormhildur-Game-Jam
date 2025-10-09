@@ -109,6 +109,7 @@ public class AnimalMovement : MonoBehaviour
             returningItem = false;
             pickingUpItem = false;
             playerChar.GetComponent<CharacterMovement>().hasBall = true;
+            moodController.Play();
         }
     }
 
@@ -123,6 +124,7 @@ public class AnimalMovement : MonoBehaviour
             eating = false;
             playerChar.GetComponent<CharacterMovement>().hasFood = true;
             Destroy(foodPos.gameObject);
+            moodController.Feed();
         }
     }
 }
