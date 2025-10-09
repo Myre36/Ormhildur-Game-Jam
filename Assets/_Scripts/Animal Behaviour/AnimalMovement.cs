@@ -125,7 +125,8 @@ public class AnimalMovement : MonoBehaviour
     {
         newPosition = new Vector3(foodPos.position.x, 0f, foodPos.position.z);
         animator.SetBool("IsWalking", true);
-
+        if (newPosition.x < transform.position.x) { sprite.transform.rotation = Quaternion.Euler(sprite.transform.rotation.x, 180f, sprite.transform.rotation.z); }
+        else sprite.transform.rotation = Quaternion.Euler(sprite.transform.rotation.x, 0f, sprite.transform.rotation.z);
         if (Vector3.Distance(newPosition, transform.position) < 4.5f)
         {
             Debug.Log("Finished eating");

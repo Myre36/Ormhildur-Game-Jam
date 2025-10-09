@@ -186,7 +186,7 @@ public class CharacterMovement : MonoBehaviour
         Ray ray = cam.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
 
-        if (Physics.Raycast(ray, out hit))
+        if (Physics.Raycast(ray, out hit, 1000f, ~throwWalls))
         {
             GameObject thrownObject = Instantiate(foodPrefab, transform.position, Quaternion.identity);
             Rigidbody rb = thrownObject.GetComponent<Rigidbody>();
