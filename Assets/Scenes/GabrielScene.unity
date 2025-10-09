@@ -660,7 +660,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 482.9, y: 9.8}
+  m_AnchoredPosition: {x: 482.9, y: -71.554}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &273613373
@@ -2056,7 +2056,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 482.9, y: -71.554}
+  m_AnchoredPosition: {x: 482.9, y: 9.8}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1421292877
@@ -3634,6 +3634,78 @@ PrefabInstance:
       propertyPath: happinessBar
       value: 
       objectReference: {fileID: 1360878058}
+    - target: {fileID: 2765106325216868275, guid: 7749efa991912e94298403d0f8d67856, type: 3}
+      propertyPath: barFillHunger
+      value: 
+      objectReference: {fileID: 1949993801}
+    - target: {fileID: 2765106325216868275, guid: 7749efa991912e94298403d0f8d67856, type: 3}
+      propertyPath: barFillHygene
+      value: 
+      objectReference: {fileID: 1843183583}
+    - target: {fileID: 2765106325216868275, guid: 7749efa991912e94298403d0f8d67856, type: 3}
+      propertyPath: barFillHappiness
+      value: 
+      objectReference: {fileID: 628249308}
+    - target: {fileID: 2765106325216868275, guid: 7749efa991912e94298403d0f8d67856, type: 3}
+      propertyPath: barGradient.atime1
+      value: 65535
+      objectReference: {fileID: 0}
+    - target: {fileID: 2765106325216868275, guid: 7749efa991912e94298403d0f8d67856, type: 3}
+      propertyPath: barGradient.ctime0
+      value: 14374
+      objectReference: {fileID: 0}
+    - target: {fileID: 2765106325216868275, guid: 7749efa991912e94298403d0f8d67856, type: 3}
+      propertyPath: barGradient.ctime1
+      value: 39046
+      objectReference: {fileID: 0}
+    - target: {fileID: 2765106325216868275, guid: 7749efa991912e94298403d0f8d67856, type: 3}
+      propertyPath: barGradient.ctime2
+      value: 65535
+      objectReference: {fileID: 0}
+    - target: {fileID: 2765106325216868275, guid: 7749efa991912e94298403d0f8d67856, type: 3}
+      propertyPath: barGradient.key0.b
+      value: 0.08627452
+      objectReference: {fileID: 0}
+    - target: {fileID: 2765106325216868275, guid: 7749efa991912e94298403d0f8d67856, type: 3}
+      propertyPath: barGradient.key0.g
+      value: 0.21171744
+      objectReference: {fileID: 0}
+    - target: {fileID: 2765106325216868275, guid: 7749efa991912e94298403d0f8d67856, type: 3}
+      propertyPath: barGradient.key0.r
+      value: 0.75686276
+      objectReference: {fileID: 0}
+    - target: {fileID: 2765106325216868275, guid: 7749efa991912e94298403d0f8d67856, type: 3}
+      propertyPath: barGradient.key1.b
+      value: 0.08235294
+      objectReference: {fileID: 0}
+    - target: {fileID: 2765106325216868275, guid: 7749efa991912e94298403d0f8d67856, type: 3}
+      propertyPath: barGradient.key1.g
+      value: 0.824174
+      objectReference: {fileID: 0}
+    - target: {fileID: 2765106325216868275, guid: 7749efa991912e94298403d0f8d67856, type: 3}
+      propertyPath: barGradient.key1.r
+      value: 0.89411765
+      objectReference: {fileID: 0}
+    - target: {fileID: 2765106325216868275, guid: 7749efa991912e94298403d0f8d67856, type: 3}
+      propertyPath: barGradient.key2.b
+      value: 0.16157518
+      objectReference: {fileID: 0}
+    - target: {fileID: 2765106325216868275, guid: 7749efa991912e94298403d0f8d67856, type: 3}
+      propertyPath: barGradient.key2.g
+      value: 0.7574123
+      objectReference: {fileID: 0}
+    - target: {fileID: 2765106325216868275, guid: 7749efa991912e94298403d0f8d67856, type: 3}
+      propertyPath: barGradient.key2.r
+      value: 0.08472394
+      objectReference: {fileID: 0}
+    - target: {fileID: 2765106325216868275, guid: 7749efa991912e94298403d0f8d67856, type: 3}
+      propertyPath: barGradient.m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2765106325216868275, guid: 7749efa991912e94298403d0f8d67856, type: 3}
+      propertyPath: barGradient.m_NumColorKeys
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4513015116505513818, guid: 7749efa991912e94298403d0f8d67856, type: 3}
       propertyPath: m_WalkableMask
       value: 5
