@@ -119,6 +119,7 @@ public class AnimalMovement : MonoBehaviour
             Debug.Log("Finished eating");
             eating = false;
             playerChar.GetComponent<CharacterMovement>().hasFood = true;
+            Destroy(foodPos.gameObject);
         }
     }
 }
