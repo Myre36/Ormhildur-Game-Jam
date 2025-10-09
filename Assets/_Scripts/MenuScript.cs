@@ -8,6 +8,11 @@ public class MenuScript : MonoBehaviour
         SceneManager.LoadScene("GameScene");
     }
 
+    public void BackToMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
+
     public void QuitGame()
     {
         Application.Quit();
