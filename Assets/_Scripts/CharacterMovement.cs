@@ -5,7 +5,7 @@ public class CharacterMovement : MonoBehaviour
     [SerializeField]
     private float walkSpeed;
     [SerializeField]
-    private float sprintMultiplier;
+    private float sprintSpeed;
 
     private float moveSpeed;
 
@@ -112,7 +112,7 @@ public class CharacterMovement : MonoBehaviour
 
             if (Input.GetKey(KeyCode.LeftShift))
             {
-                moveSpeed = walkSpeed * sprintMultiplier;
+                moveSpeed = sprintSpeed;
                 sprinting = true;
             }
             else
@@ -125,12 +125,29 @@ public class CharacterMovement : MonoBehaviour
             //this.transform.position = newPosition;
 
             ChangeAnimation();
+            SpeedControl();
         }
     }
 
     private void FixedUpdate()
     {
-        rb.MovePosition(rb.position + moveDirection * moveSpeed * Time.deltaTime);
+        //rb.MovePosition(rb.position + moveDirection * moveSpeed * Time.deltaTime);
+
+        rb.AddForce(moveDirection * (moveSpeed * 10f) * Time.deltaTime, ForceMode.Force);
+    }
+
+    //A function that prvents the player from going too fast
+    private void SpeedControl()
+    {
+        //Calculates the X and Z velocity that the player is moving in
+        Vector3 flatVel = new Vector3(rb.linearVelocity.x, 0f, rb.linearVelocity.z);
+
+        //Limit the velocity if needed
+        if (flatVel.magnitude > moveSpeed)
+        {
+            Vector3 limitedVelocity = flatVel.normalized * moveSpeed;
+            rb.linearVelocity = new Vector3(limitedVelocity.x, rb.linearVelocity.y, limitedVelocity.z);
+        }
     }
 
     public void Throw()

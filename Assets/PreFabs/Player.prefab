@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 4873313411846627783}
   - component: {fileID: 2145076148535739565}
   - component: {fileID: 6640958789638809024}
-  - component: {fileID: 5799240816828557979}
   - component: {fileID: 5730807496467877230}
+  - component: {fileID: 4740843243228243026}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -73,27 +73,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::AnimalInteraction
   animal: {fileID: 0}
   animalMenu: {fileID: 0}
---- !u!65 &5799240816828557979
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4267681140152740419}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.8858969, y: 4.80793, z: 1}
-  m_Center: {x: 0.021433085, y: 0.110737085, z: 0}
 --- !u!54 &5730807496467877230
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -103,7 +82,7 @@ Rigidbody:
   m_GameObject: {fileID: 4267681140152740419}
   serializedVersion: 5
   m_Mass: 1
-  m_LinearDamping: 0
+  m_LinearDamping: 5
   m_AngularDamping: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -121,6 +100,29 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 116
   m_CollisionDetection: 0
+--- !u!136 &4740843243228243026
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4267681140152740419}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.6073848
+  m_Height: 4.859196
+  m_Direction: 1
+  m_Center: {x: 0.037320137, y: 0.11211705, z: -0.00000011920929}
 --- !u!1001 &2011961090280085855
 PrefabInstance:
   m_ObjectHideFlags: 0
