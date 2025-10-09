@@ -34,11 +34,14 @@ public class AnimalMovement : MonoBehaviour
 
     public Transform foodPos;
 
+    private MoodController moodController;
+
     void Start()
     {
         currentTimeBetween = Time.realtimeSinceStartup + timeBetweenMovements;
         playerChar = GameObject.Find("Player");
         agent.updateRotation = false;
+        moodController = GetComponent<MoodController>();
     }
 
     void Update()
