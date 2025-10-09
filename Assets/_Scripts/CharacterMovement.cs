@@ -38,6 +38,9 @@ public class CharacterMovement : MonoBehaviour
     [SerializeField]
     private SpriteRenderer sprite;
 
+    [SerializeField]
+    private LayerMask throwWalls;
+
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -155,7 +158,7 @@ public class CharacterMovement : MonoBehaviour
         Ray ray = cam.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
 
-        if (Physics.Raycast(ray, out hit))
+        if (Physics.Raycast(ray, out hit, throwWalls))
         {
             GameObject thrownObject = Instantiate(throwPrefab, transform.position, Quaternion.identity);
             Rigidbody rb = thrownObject.GetComponent<Rigidbody>();

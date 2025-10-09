@@ -4008,17 +4008,13 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2145076148535739565, guid: 0bbbd356cf14b4245bb4b15585878920, type: 3}
+      propertyPath: cam
+      value: 
+      objectReference: {fileID: 2011540466}
+    - target: {fileID: 2145076148535739565, guid: 0bbbd356cf14b4245bb4b15585878920, type: 3}
       propertyPath: animal
       value: 
       objectReference: {fileID: 1131384514}
-    - target: {fileID: 2145076148535739565, guid: 0bbbd356cf14b4245bb4b15585878920, type: 3}
-      propertyPath: walkSpeed
-      value: 120
-      objectReference: {fileID: 0}
-    - target: {fileID: 2145076148535739565, guid: 0bbbd356cf14b4245bb4b15585878920, type: 3}
-      propertyPath: sprintSpeed
-      value: 250
-      objectReference: {fileID: 0}
     - target: {fileID: 4267681140152740419, guid: 0bbbd356cf14b4245bb4b15585878920, type: 3}
       propertyPath: m_Name
       value: Player
@@ -4066,10 +4062,6 @@ PrefabInstance:
     - target: {fileID: 4873313411846627783, guid: 0bbbd356cf14b4245bb4b15585878920, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5730807496467877230, guid: 0bbbd356cf14b4245bb4b15585878920, type: 3}
-      propertyPath: m_LinearDamping
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6640958789638809024, guid: 0bbbd356cf14b4245bb4b15585878920, type: 3}
       propertyPath: animal
@@ -5686,7 +5678,7 @@ GameObject:
   - component: {fileID: 1454418579}
   - component: {fileID: 1454418578}
   - component: {fileID: 1454418577}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Border
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6477,7 +6469,7 @@ GameObject:
   - component: {fileID: 1671518179}
   - component: {fileID: 1671518178}
   - component: {fileID: 1671518177}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Border (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7453,7 +7445,7 @@ GameObject:
   - component: {fileID: 1937183752}
   - component: {fileID: 1937183751}
   - component: {fileID: 1937183750}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Border (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8082,7 +8074,7 @@ GameObject:
   - component: {fileID: 2135676803}
   - component: {fileID: 2135676802}
   - component: {fileID: 2135676801}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}

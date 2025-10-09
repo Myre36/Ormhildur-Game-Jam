@@ -48,8 +48,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b9e1983f0d947a448309fff37b75aaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CharacterMovement
-  walkSpeed: 5
-  sprintMultiplier: 1.5
+  walkSpeed: 120
+  sprintSpeed: 250
   hasBall: 1
   cam: {fileID: 0}
   throwPrefab: {fileID: 8764565958748990530, guid: 8dfeb4d5ccd0c0045aee848c66f4aecd, type: 3}
@@ -59,6 +59,9 @@ MonoBehaviour:
   animal: {fileID: 0}
   anim: {fileID: 5639692743413675650}
   sprite: {fileID: 9130380843879545872}
+  throwWalls:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!114 &6640958789638809024
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -82,7 +85,7 @@ Rigidbody:
   m_GameObject: {fileID: 4267681140152740419}
   serializedVersion: 5
   m_Mass: 1
-  m_LinearDamping: 5
+  m_LinearDamping: 7
   m_AngularDamping: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
