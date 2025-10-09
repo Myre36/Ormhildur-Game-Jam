@@ -292,7 +292,9 @@ MonoBehaviour:
   playerChar: {fileID: 0}
   emoticons: {fileID: 5396674675759084621}
   pickingUpItem: 0
+  eating: 0
   ballPos: {fileID: 0}
+  foodPos: {fileID: 0}
 --- !u!114 &2765106325216868275
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -463,10 +465,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 2732845301484929597, guid: 69921b2089ff61849b19dc9bd9882a78, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 8150262493885668889}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69921b2089ff61849b19dc9bd9882a78, type: 3}
 --- !u!4 &617325064495805047 stripped
 Transform:
@@ -478,29 +477,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2732845301484929597, guid: 69921b2089ff61849b19dc9bd9882a78, type: 3}
   m_PrefabInstance: {fileID: 8398816412692257807}
   m_PrefabAsset: {fileID: 0}
---- !u!136 &8150262493885668889
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5864693136288439858}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 2.4
-  m_Height: 1
-  m_Direction: 1
-  m_Center: {x: -0.14, y: 0, z: 0}
 --- !u!95 &7567569888532087062 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 2129076445855341849, guid: 69921b2089ff61849b19dc9bd9882a78, type: 3}
