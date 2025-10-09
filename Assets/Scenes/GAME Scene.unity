@@ -4015,9 +4015,17 @@ PrefabInstance:
       propertyPath: animal
       value: 
       objectReference: {fileID: 1131384514}
+    - target: {fileID: 3334274399566788216, guid: 0bbbd356cf14b4245bb4b15585878920, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4267681140152740419, guid: 0bbbd356cf14b4245bb4b15585878920, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 4267681140152740419, guid: 0bbbd356cf14b4245bb4b15585878920, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4267681140152740419, guid: 0bbbd356cf14b4245bb4b15585878920, type: 3}
       propertyPath: m_IsActive
