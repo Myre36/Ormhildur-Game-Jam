@@ -26,8 +26,12 @@ public class AnimalInteraction : MonoBehaviour
            else { Debug.Log("Too Far"); }
            
         }
-        if (Vector3.Distance(transform.position, animal.transform.position) > 5f) {
-            animalMenu.SetActive(false);
+        if (animal != null) 
+        {
+            if (Vector3.Distance(transform.position, animal.transform.position) > 5f)
+            {
+                animalMenu.SetActive(false);
+            }
         }
     }
 }
