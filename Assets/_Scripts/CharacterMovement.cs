@@ -19,6 +19,12 @@ public class CharacterMovement : MonoBehaviour
     private Camera cam;
     [SerializeField] 
     private GameObject throwPrefab;
+
+    private bool feeding = false;
+    [SerializeField]
+    private GameObject foodPrefab;
+    public bool hasFood = true;
+
     [SerializeField] 
     private float throwForce = 10f;
     [SerializeField]
@@ -35,7 +41,7 @@ public class CharacterMovement : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.T))
         {
-            if(!throwing && hasBall)
+            if(!throwing && hasBall && hasFood && !feeding)
             {
                 throwing = true;
             }
@@ -44,8 +50,19 @@ public class CharacterMovement : MonoBehaviour
                 throwing = false;
             }
         }
+        if (Input.GetKeyDown(KeyCode.U))
+        {
+            if (hasFood && !feeding && !throwing && hasBall)
+            {
+                feeding = true;
+            }
+            else
+            {
+                feeding = false;
+            }
+        }
 
-        if(throwing)
+        if (throwing)
         {
             anim.SetBool("WalkingUp", false);
             anim.SetBool("WalkingDown", false);
@@ -61,6 +78,24 @@ public class CharacterMovement : MonoBehaviour
             if (Input.GetMouseButtonDown(0))
             {
                 Throw();
+            }
+        }
+        else if(feeding)
+        {
+            anim.SetBool("WalkingUp", false);
+            anim.SetBool("WalkingDown", false);
+            anim.SetBool("WalkingSide", false);
+            anim.SetBool("WalkingDiagonal", false);
+            anim.SetBool("RunningUp", false);
+            anim.SetBool("RunningDown", false);
+            anim.SetBool("RunningSide", false);
+            anim.SetBool("RunningDiagonal", false);
+
+            sprite.flipX = false;
+
+            if (Input.GetMouseButtonDown(0))
+            {
+                Feed();
             }
         }
         else
@@ -108,6 +143,34 @@ public class CharacterMovement : MonoBehaviour
                 animal.pickingUpItem = true;
                 hasBall = false;
                 throwing = false;
+            }
+            else
+            {
+                Debug.Log("No rigidbody found on the thrown object");
+            }
+        }
+    }
+
+    public void Feed()
+    {
+        Ray ray = cam.ScreenPointToRay(Input.mousePosition);
+        RaycastHit hit;
+
+        if (Physics.Raycast(ray, out hit))
+        {
+            GameObject thrownObject = Instantiate(foodPrefab, transform.position, Quaternion.identity);
+            Rigidbody rb = thrownObject.GetComponent<Rigidbody>();
+
+            if (rb != null)
+            {
+                Vector3 direction = (hit.point - transform.position).normalized;
+
+                rb.AddForce(direction * (throwForce / 3f), ForceMode.Impulse);
+
+                animal.foodPos = thrownObject.transform;
+                animal.eating = true;
+                feeding = false;
+                hasFood = false;
             }
             else
             {
