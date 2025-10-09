@@ -606,7 +606,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1131384513}
         m_TargetAssemblyTypeName: MoodController, Assembly-CSharp
         m_MethodName: Bathe
         m_Mode: 1
